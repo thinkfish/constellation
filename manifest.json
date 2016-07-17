@@ -1,0 +1,22 @@
+{
+	"name":"小黄瓜星座运程",
+	"version":"2.1.1",
+	"description":"爱好的星座的朋友可以快捷查询自己星座的未来运势了呢。更多小黄瓜扩展请访问http://huanggua.sinaapp.com",
+	"manifest_version":2,
+		"background":{
+		"page":"background.html"
+	},
+	"browser_action":{
+		"default_title":"小黄瓜星座运程",
+		"default_icon":"/images/icons/baiyang/icon_48.png",
+		"default_popup":"popup.html"
+	},
+	"permissions":["http://*/*","https://*/*","idle","management","storage","tabs","unlimitedStorage",
+    "webNavigation","notifications"],
+	"icons":{
+		"128":"/images/icons/baiyang/icon_128.png",
+		"48":"/images/icons/baiyang/icon_48.png",
+		"16":"/images/icons/baiyang/icon_16.png"
+	},
+	"update_url":"http://upext.chrome.360.cn/intf.php?method=ExtUpdate.query"
+}

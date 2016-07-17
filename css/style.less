@@ -1,0 +1,40 @@
+body{
+	font-size: 12px;color:#333;text-align: center;font-family: 微软雅黑;font-weight: lighter;
+}
+*{margin: 0;padding: 0;}
+img{border: none;}
+a{text-decoration: none;color:#3399dd;}
+ul li{list-style: none;}
+.weather-body{width: 320px;height: 360px;padding: 15px}
+.weather-header,.weather-three-days,.weather-qulity,.weather-index{width: 100%;}
+.weather-header li,.weather-three-days li{
+	float: left;
+}
+.hidden{display:none;}
+
+.selectConstellation{width:600px;padding:10px;height:530px;
+	li{float:left;width:128px;height:162px;margin-left:15px;border:1px solid #fff;border-radius:10px;margin-top:10px;cursor:pointer;font-size:14px;font-weight:bold;color:#333;
+		&:hover{border:1px solid #3399dd;}
+	}
+}
+
+.search-result{width:600px;
+	.funs{width:100%;
+		li{display:inline-block;font-size:16px;margin-top:10px;margin-bottom:10px;margin-left:10px;cursor:pointer;color:#3399dd;padding:5px;border-radius:5px;text-align:center;}
+		.hover{background:#3399dd;color:#fff;}
+	}
+	table{width:100%;border-radius:10px;border:1px soild #ddd;border-collapse: collapse;
+		td:first-child span{display:inline-block;}
+		td:first-child span.day{width:100px;cursor:pointer;color:#3399dd;}
+		td:first-child span.tomorrow{width:100px;cursor:pointer;color:#3399dd;}
+		td{border:1px solid #ddd;}
+		tr:nth-child(odd){
+			background-color:#f9f9f9;
+		}
+		td:nth-child(odd){width:120px;color:#333;height:30px;padding-left:5px;font-family:微软雅黑;}
+		td:nth-child(even){
+			padding-left:5px;
+		}
+	}
+	.returnlist{width:100%;text-align:center;margin-top:20px;font-size:16px;color:#3399dd;cursor:pointer;}
+}
